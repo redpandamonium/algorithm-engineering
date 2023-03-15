@@ -18,7 +18,8 @@ add_library(DataReduction
         src/degree_4_crossbow_reduction.cpp include/degree_4_crossbow_reduction.hpp
         src/degree_4_path_reduction.cpp include/degree_4_path_reduction.hpp src/degree_4_trebuchet_reduction.cpp
         include/degree_4_trebuchet_reduction.hpp src/neighbor_clique_partition_reduction.cpp
-        include/neighbor_clique_partition_reduction.hpp include/container/once_container.hpp src/container/once_container.cpp
+        include/neighbor_clique_partition_reduction.hpp
+        include/container/once_container.hpp src/container/once_container.cpp
         include/loop_reduction.hpp src/loop_reduction.cpp src/container/exhaustive_iterative_container.cpp
         include/container/exhaustive_iterative_container.hpp src/funnel_reduction.cpp include/funnel_reduction.hpp
         src/desk_reduction.cpp include/desk_reduction.hpp)
@@ -26,7 +27,7 @@ add_library(DataReduction
 target_include_directories(DataReduction PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         PRIVATE ../graph/include src)
 target_compile_options(DataReduction PRIVATE ${PEDANTIC_WARNINGS} $<$<CONFIG:Release>:${RELEASE_FLAGS}> $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)
-target_link_libraries(DataReduction Common Graph)
+target_link_libraries(DataReduction Common Graph Boost::boost)
 
 export(TARGETS DataReduction FILE DataReductionConfig.cmake)
 
@@ -36,6 +37,7 @@ add_executable(DataReductionUnitTest
         test/container_test.cpp test/degree_three_independent_set_test.cpp test/degree_four_path_test.cpp
         test/degree_four_crossbow_test.cpp test/lp_test.cpp test/lp_test.cpp test/loop_reduction_test.cpp
         test/degree_four_trebuchet_test.cpp)
-target_link_libraries(DataReductionUnitTest DataReduction Common Graph gtest_main gmock)
+target_link_libraries(DataReductionUnitTest DataReduction Common Graph
+        GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
 target_compile_options(DataReductionUnitTest PRIVATE $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)
 add_test(DataReductionUnitTest DataReductionUnitTest)

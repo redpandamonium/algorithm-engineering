@@ -4,6 +4,7 @@
 
 
 #include <algorithm>
+#include <set>
 #include "graph.hpp"
 #include "edge_writer.hpp"
 

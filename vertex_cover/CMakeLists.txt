@@ -18,21 +18,23 @@ set(SOURCES src/vertex_cover_solver.cpp include/vertex_cover_solver.hpp
         ../dep/nlohmann/json.hpp src/vertex_cover.cpp include/vertex_cover.hpp
         src/mirrors.cpp include/mirrors.hpp src/bounds/cycle_cover_lb.cpp include/bounds/cycle_cover_lb.hpp)
 
-set(Boost_USE_STATIC_LIBS ON)
-
-find_package(Boost REQUIRED COMPONENTS thread system graph program_options filesystem)
-
 # library for the solver
 add_library(VertexCoverLib ${SOURCES})
-target_include_directories(VertexCoverLib PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include> ${Boost_INCLUDE_DIRS}
+target_include_directories(VertexCoverLib PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         PRIVATE ../graph/include src)
 target_compile_options(VertexCoverLib PRIVATE ${PEDANTIC_WARNINGS} $<$<CONFIG:Release>:${RELEASE_FLAGS}> $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)
-target_link_libraries(VertexCoverLib Graph Common DataReduction ${Boost_LIBRARIES})
+target_link_libraries(
+        VertexCoverLib Graph Common DataReduction
+        Boost::boost Boost::thread Boost::system Boost::graph Boost::program_options Boost::filesystem
+)
 
 # executable solver
 add_executable(VertexCover ${SOURCES} src/main.cpp)
 target_compile_options(VertexCover PRIVATE ${PEDANTIC_WARNINGS} $<$<CONFIG:Release>:${RELEASE_FLAGS}> $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)
-target_link_libraries(VertexCover VertexCoverLib Graph Common DataReduction ${Boost_LIBRARIES})
+target_link_libraries(
+        VertexCover VertexCoverLib Graph Common DataReduction
+        Boost::boost Boost::thread Boost::system Boost::graph Boost::program_options Boost::filesystem
+)
 
 # install resources
 file(GLOB RESOURCES res/*)
@@ -44,14 +46,15 @@ export(TARGETS VertexCoverLib FILE VertexCoverLibConfig.cmake)
 add_executable(VertexCoverUnitTest
         test/src/clique_cover_test.cpp test/src/configuration_test.cpp test/src/mirror_test.cpp
         test/src/edge_writer_test.cpp test/src/cycle_cover_test.cpp)
-target_link_libraries(VertexCoverUnitTest VertexCoverLib Common Graph gtest_main gmock)
+target_link_libraries(VertexCoverUnitTest VertexCoverLib Common Graph GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
 target_compile_options(VertexCoverUnitTest PRIVATE $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)
 add_test(VertexCoverUnitTest VertexCoverUnitTest)
 
 # integration tests
 add_executable(VertexCoverIntegrationTest
         test/src/vc_correctness_test.cpp)
-target_link_libraries(VertexCoverIntegrationTest VertexCoverLib Common Graph gtest_main gmock)
+target_link_libraries(VertexCoverIntegrationTest VertexCoverLib Common
+        Graph GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
 target_compile_options(VertexCoverIntegrationTest PRIVATE $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)
 add_test(VertexCoverIntegrationTest VertexCoverIntegrationTest)
 

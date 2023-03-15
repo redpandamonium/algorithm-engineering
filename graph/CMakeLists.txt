@@ -11,6 +11,7 @@ set(SOURCES include/edge_writer.hpp lib/edge_writer.cpp include/open_wbo_writer.
         include/pace_graph_reader.hpp lib/pace_graph_reader.cpp include/pace_solution_writer.hpp lib/pace_solution_writer.cpp)
 
 add_library(Graph ${SOURCES} include/edge.hpp lib/egde.cpp include/types.hpp lib/neighbors_iterator.cpp include/neighbors_iterator.hpp lib/neighbor_range.cpp include/neighbor_range.hpp)
+target_link_libraries(Graph Boost::boost)
 
 target_compile_options(Graph PRIVATE ${PEDANTIC_WARNINGS} $<$<CONFIG:RELEASE>:${RELEASE_FLAGS}>)
 target_include_directories(Graph PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -22,5 +23,6 @@ add_executable(GraphUnitTest
         test/bipartite_graph_test.cpp test/breadth_first_search_test.cpp test/depth_first_search_test.cpp
         test/edge_count_test.cpp test/graph_delete_test.cpp test/graph_iterator_test.cpp test/graph_reader_test.cpp
         test/graph_test.cpp test/partition_test.cpp test/subgraph_test.cpp test/vertex_test.cpp test/pace_graph_io_test.cpp)
-target_link_libraries(GraphUnitTest Graph gtest_main gmock)
+target_link_libraries(GraphUnitTest Graph
+        GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
 add_test(GraphUnitTest GraphUnitTest)

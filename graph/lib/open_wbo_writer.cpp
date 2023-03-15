@@ -7,8 +7,7 @@
 #include "graph.hpp"
 #include "open_wbo_writer.hpp"
 #include <edge_writer.hpp>
-#include <string>
-#include <cstdlib>
+#include <set>
 
 open_wbo_writer::open_wbo_writer(std::ostream& os)
         : m_stream(os)

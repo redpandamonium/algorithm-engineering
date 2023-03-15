@@ -304,9 +304,8 @@ data_reduction_options configuration::read_data_reduction(const std::string& sec
     // special case: aggregate reduction
     result.children = read_data_reduction_list(section, jsn);
 
-    // Why? Just allow empty containers.
-    // if (result.children.empty())
-    //     throw configuration_parse_exception(section + "::" + key::data_reduction_section, "Cannot have aggregate reduction object without children");
+    if (result.children.empty())
+        throw configuration_parse_exception(section + "::" + key::data_reduction_section, "Cannot have aggregate reduction object without children");
 
     return result;
 }
