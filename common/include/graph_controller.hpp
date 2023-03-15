@@ -98,12 +98,6 @@ public:
      */
     void remove_edge(vertex::id_type a, vertex::id_type b);
 
-    /**
-     * @brief Run garbage collection on the graph and its metadata
-     * @note Invalidates IDs and references to metadata
-     */
-    void collect_garbage();
-
     vertex::id_type group(const std::vector<vertex::id_type>& group);
 
     std::vector<vertex::id_type> ungroup(vertex::id_type vertex);

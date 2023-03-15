@@ -198,20 +198,6 @@ namespace
         EXPECT_EQ(v2, meta_data.max_heap().top());
         EXPECT_TRUE(v3 == meta_data.min_heap().top() || v1 == meta_data.min_heap().top());
     }
-
-    TEST(heap, garbage_collect)
-    {
-        graph g { 2 };
-        auto v0 = g.add_vertex();
-        auto v1 = g.add_vertex();
-        g.add_edge(v0, v1);
-
-        graph_meta_data meta { g };
-        graph_controller controller { g, meta };
-
-        controller.collect_garbage();
-        controller.include_into_vertex_cover(v0);
-    }
 }
 
 #pragma clang diagnostic pop

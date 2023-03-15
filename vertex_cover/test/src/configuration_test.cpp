@@ -46,12 +46,6 @@ namespace
         EXPECT_EQ(0, r.priority);
     }
 
-    TEST(configuration, data_reduction_empty_second_layer)
-    {
-        nlohmann::json jsn = R"({"data-reductions": {"name": "exhaustive", "priority": 0, "data-reductions": []}})"_json;
-        EXPECT_THROW(configuration config(jsn), configuration_parse_exception);
-    }
-
     TEST(configuration, data_reduction_invalid_container_name)
     {
         nlohmann::json jsn = R"({"data-reductions": {"name": "def-does-not-exist", "priority": 0}})"_json;

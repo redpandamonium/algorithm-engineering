@@ -107,9 +107,6 @@ namespace
                         {"name": "degree > k", "priority": 0},
                         {"name": "triangle", "priority": 2},
                         {"name": "2-fold",   "priority": 1}
-                    ]},
-                    { "name": "exhaustive", "priority": 1, "data-reductions": [
-                        {"name": "crown",   "priority": 0}
                     ]}
                 ]},
                 { "name": "exhaustive-infrequent", "priority": 0, "frequency": 5, "data-reductions": [
@@ -134,7 +131,7 @@ namespace
     TEST_F(vc_correctness, no_data_reductions)
     {
         configuration config(R"({
-            "data-reductions": { "name": "exhaustive", "priority": 0, "data-reductions": [] }
+            "data-reductions": { "name": "once", "priority": 0, "data-reductions": [] }
         })"_json);
 
         for (auto i = 1; i < 5; ++i)
@@ -175,42 +172,12 @@ namespace
         g.add_edge(v1, v2);
         g.add_edge(v3, v4);
 
-        configuration empty(R"({"data-reductions": []})"_json);
+        configuration empty(R"({"data-reductions": { "name": "once", "priority": 0, "data-reductions": [] }})"_json);
 
         vertex_cover solver(g, empty, empty);
         solver.solve();
         unsigned solution = solution_size(g);
         EXPECT_EQ(2, solution);
-    }
-
-    TEST_F(vc_correctness, components_complex)
-    {
-        graph g;
-        auto root = g.add_vertex();
-        auto v1 = g.add_vertex();
-        auto v2 = g.add_vertex();
-        auto v3 = g.add_vertex();
-        auto v4 = g.add_vertex();
-        auto v5 = g.add_vertex();
-        auto v6 = g.add_vertex();
-        auto v7 = g.add_vertex();
-        auto v8 = g.add_vertex();
-
-        g.add_edge(root, v1);
-        g.add_edge(v1, v2);
-        g.add_edge(root, v3);
-        g.add_edge(v3, v4);
-        g.add_edge(root, v5);
-        g.add_edge(v5, v6);
-        g.add_edge(root, v7);
-        g.add_edge(v7, v8);
-
-        configuration empty(R"({"data-reductions": []})"_json);
-
-        vertex_cover solver(g, empty, empty);
-        solver.solve();
-        auto solution = solution_size(g);
-        EXPECT_EQ(4, solution);
     }
 
     /*

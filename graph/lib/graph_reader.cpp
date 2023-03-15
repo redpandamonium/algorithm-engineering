@@ -41,9 +41,8 @@ graph_data graph_reader::read()
         if (!next_word(it, line.end()).empty())
             throw (graph_parse_exception(line_number, "Line does not end after the second vertex"));
 
-        // loop
-        //if (first_vertex == second_vertex)
-        //    continue;
+        // loop, skip these
+        if (first_vertex == second_vertex) continue;
 
         // insert the vertices if necessary
         auto vec1 = get_or_add(first_vertex, data);

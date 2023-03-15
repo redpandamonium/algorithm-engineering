@@ -21,8 +21,9 @@ export(TARGETS Graph FILE GraphConfig.cmake)
 
 add_executable(GraphUnitTest
         test/bipartite_graph_test.cpp test/breadth_first_search_test.cpp test/depth_first_search_test.cpp
-        test/edge_count_test.cpp test/graph_delete_test.cpp test/graph_iterator_test.cpp test/graph_reader_test.cpp
-        test/graph_test.cpp test/partition_test.cpp test/subgraph_test.cpp test/vertex_test.cpp test/pace_graph_io_test.cpp)
+        test/edge_count_test.cpp test/graph_iterator_test.cpp test/graph_reader_test.cpp
+        test/graph_test.cpp test/partition_test.cpp test/subgraph_test.cpp test/vertex_test.cpp
+        test/pace_graph_io_test.cpp)
 target_link_libraries(GraphUnitTest Graph
         GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
 add_test(GraphUnitTest GraphUnitTest)

@@ -225,24 +225,6 @@ void graph_controller::set_vertex_cover_size(int k)
     m_meta_data.vertex_cover_size(k);
 }
 
-void graph_controller::collect_garbage()
-{
-    // go over all vertices in the graph, delete invalid vertices
-    // go in reverse order to have as few swap operations as possible
-    for (auto i = m_graph.size_including_inactive() - 1; i >= 0; --i)
-    {
-        if (!m_graph[i].valid())
-            m_graph.remove(i);
-
-        // i must never be negative to avoid unsigned undefined behaviour
-        if (i == 0)
-            break;
-    }
-
-    // meta data has to be rebuilt because IDs have become invalid
-    m_meta_data.rebuild();
-}
-
 std::vector<std::unique_ptr<subgraph>> graph_controller::components()
 {
     return components::subgraphs(m_graph);

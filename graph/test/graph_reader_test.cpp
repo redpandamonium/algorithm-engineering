@@ -109,9 +109,15 @@ namespace
         static constexpr const char* CONTENT = "a b\na a";
         std::istringstream istream { CONTENT };
 
-        graph_reader reader { istream };
+        // Make sure the loop is not included in the graph.
+        // All close assumes the graph is loop-free.
 
-        EXPECT_THROW(reader.read(), graph_parse_exception);
+        graph_reader reader { istream };
+        auto g = reader.read();
+        EXPECT_EQ(g.names.size(), 2);
+        EXPECT_EQ(g.vertices.size(), 2);
+        vertex::id_type v_a = g.names.left.find(std::string("a"))->second;
+        ASSERT_THAT(g.vertices[v_a].neighbors(), Not(Contains(v_a)));
     }
 }
 #pragma clang diagnostic pop

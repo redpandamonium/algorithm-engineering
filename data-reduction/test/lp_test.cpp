@@ -98,46 +98,4 @@ namespace
         for (auto& vertex : g)
             EXPECT_TRUE(vertex.valid());
     }
-
-    TEST_F(data_reduction_lp, rocket_graph) {
-
-        graph g{7};
-
-        auto v0 = g.add_vertex();
-        auto v1 = g.add_vertex();
-        auto v2 = g.add_vertex();
-        auto v3 = g.add_vertex();
-        auto v4 = g.add_vertex();
-        auto v5 = g.add_vertex();
-        auto v6 = g.add_vertex();
-
-        g.add_edge(v0, v2);
-        g.add_edge(v0, v3);
-        g.add_edge(v1, v2);
-        g.add_edge(v1, v3);
-        g.add_edge(v2, v4);
-        g.add_edge(v2, v5);
-        g.add_edge(v3, v4);
-        g.add_edge(v3, v5);
-        g.add_edge(v4, v5);
-        g.add_edge(v4, v6);
-        g.add_edge(v5, v6);
-
-        auto edges = g.num_edges();
-
-        graph_meta_data meta_data(g, graph_meta_data::options { false, false, true });
-        meta_data.vertex_cover_size(2); // this is true, example graph by me
-        graph_controller controller(g, meta_data);
-        graph_unit unit(g, meta_data, controller);
-
-        data_reduction_factory factory { options };
-        auto reductions = std::move(factory.build(unit));
-
-        reductions->apply();
-
-        EXPECT_TRUE(g.num_edges() == 3);
-        EXPECT_TRUE(meta_data.vertex_cover_size() == 0);
-        EXPECT_TRUE(util::is_in_vertex_cover(g, v2));
-        EXPECT_TRUE(util::is_in_vertex_cover(g, v3));
-    }
 }

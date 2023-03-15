@@ -14,7 +14,7 @@ target_link_libraries(Common Graph)
 
 export(TARGETS Common FILE CommonConfig.cmake)
 
-add_executable(CommonUnitTest test/garbage_collect_test.cpp test/graph_controller_test.cpp test/heap_test.cpp test/hopcroft_karp_matching_test.cpp test/set_test.cpp)
+add_executable(CommonUnitTest test/graph_controller_test.cpp test/heap_test.cpp test/hopcroft_karp_matching_test.cpp test/set_test.cpp)
 target_link_libraries(CommonUnitTest Common Graph
         GTest::gtest GTest::gtest_main GTest::gmock GTest::gmock_main)
 target_compile_options(CommonUnitTest PRIVATE $<$<CONFIG:Debug>:${DEBUG_FLAGS}>)

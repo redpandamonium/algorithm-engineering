@@ -466,7 +466,7 @@ void graph::on_element_remove(vertex& removed)
 
 void graph::remove(vertex::id_type v_id)
 {
-    remove(operator[](v_id));
+    invalidate(operator[](v_id));
 }
 
 void graph::on_element_replace(vertex& u, vertex& v)
