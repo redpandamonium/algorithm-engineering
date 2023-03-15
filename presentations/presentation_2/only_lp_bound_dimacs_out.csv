@@ -1,0 +1,6 @@
+Filename;Execution Time;Found VC;Solution VC;Finished?;Correct?;Recursive Steps;n;
+karate.graph.dimacs;0.20730924606323242;14;14;True;True;42;34;
+dolphins.graph.dimacs;1.7587156295776367;34;34;True;True;196;62;
+chesapeake.graph.dimacs;0.3870553970336914;22;22;True;True;59;39;
+adjnoun.graph.dimacs;7.779873847961426;59;59;True;True;282;112;
+polbooks.graph.dimacs;11.210353374481201;62;62;True;True;618;105;

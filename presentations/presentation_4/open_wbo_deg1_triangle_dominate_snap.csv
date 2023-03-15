@@ -1,0 +1,12 @@
+Filename,Execution Time,Found VC,Solution VC
+as20000102.txt.dimacs,0.259467124938965,1052,1052
+email-Eu-core.txt.dimacs,300,None,579
+ca-GrQc.txt.dimacs,0.246713161468506,2783,2783
+p2p-Gnutella08.txt.dimacs,0.911479234695435,2054,2054
+ca-HepTh.txt.dimacs,0.453094959259033,4981,4981
+p2p-Gnutella09.txt.dimacs,0.700569868087769,2574,2574
+p2p-Gnutella06.txt.dimacs,300,None,3405
+p2p-Gnutella05.txt.dimacs,300,None,3428
+p2p-Gnutella04.txt.dimacs,300,None,4348
+p2p-Gnutella25.txt.dimacs,2.24534821510315,6017,6017
+facebook_combined.txt.dimacs,300,None,2993

@@ -1,0 +1,14 @@
+Filename,Execution Time,Found VC,Solution VC,Finished?,Correct?,Recursive Steps,Vertices,
+karate.graph.dimacs,0.006066322326660156,14,14,True,True,15,None
+dolphins.graph.dimacs,0.012196540832519531,34,34,True,True,35,None
+chesapeake.graph.dimacs,0.007230520248413086,22,22,True,True,23,None
+adjnoun.graph.dimacs,0.05063891410827637,59,59,True,True,67,None
+polbooks.graph.dimacs,0.01873946189880371,62,62,True,True,63,None
+football.graph.dimacs,5.495609283447266,94,94,True,True,2899,None
+celegans_metabolic.graph.dimacs,0.5117130279541016,249,249,True,True,250,None
+jazz.graph.dimacs,0.2991485595703125,158,158,True,True,159,None
+netscience.graph.dimacs,1.3328323364257812,899,899,True,True,900,None
+email.graph.dimacs,4.0213868618011475,594,594,True,True,595,None
+add20.graph.dimacs,7.017990827560425,1265,1265,True,True,1266,None
+power.graph.dimacs,12.998221158981323,2203,2203,True,True,2204,None
+add32.graph.dimacs,13.426998376846313,2674,2674,True,True,2675,None

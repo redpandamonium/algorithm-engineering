@@ -1,0 +1,40 @@
+function solve(G,k)
+    // potential idea to not calculate lower bounds and do data reduction for low k as runtime of the data reduction may be higher than just solving with branching
+    if (k < 7 (maybe a bit more or less))
+        solve exhaustively 
+    //
+    if k < 0 then return false
+    if G is empty return true
+    if G edgeless then return false
+    (G', k') <- Reduce(G,k)
+    if |E'| > k'^2 then 
+        revert_reductions()
+        return false
+    if k' < Lowerbound(G') then 
+        revert_reductions()
+        return false
+    if G is not connected then
+        components <- Components(G')
+        for component in components do
+            k' = k' - solve(component) // this should be the solve that goes from k = 0 -> k = |component|
+    (G_b1, k_b1), (G_b2, k_b2) <- Branch(G' k')
+    if solve(G_b1, k_b1) then return true
+    if solve(G_b2, k_b2) then return true
+    revert_reductions()
+    return false
+    
+function Reduce(G, k)
+    repeat
+        taken <- 0
+        Degree-0 
+        while (taken <- Degree-1) > 0
+        k <- k - taken
+        while (taken <- Degree>k) > 0
+        k <- k - taken
+        the same analogue for Triangle then Dominate then 2-Fold
+    until taken < 1 or k < 1
+    return (G, k)
+
+function Branch(G,k)
+    select a vertex v of maximum degree
+    return (G - M[v], k - |M[v]|) , (G - N[v], k - |N[v]) // M[v] is M(v) + v and M(v) are the mirrors of v  

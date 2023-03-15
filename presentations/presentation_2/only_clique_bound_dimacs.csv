@@ -1,0 +1,18 @@
+Filename,Execution Time,Found VC,Solution VC,Finished?,Correct?,Recursive Steps,
+karate.graph.dimacs,0.058623313903808594,14,14,True,True,28
+dolphins.graph.dimacs,0.21645045280456543,34,34,True,True,92
+chesapeake.graph.dimacs,0.08631539344787598,22,22,True,True,53
+adjnoun.graph.dimacs,3.193390369415283,59,59,True,True,848
+polbooks.graph.dimacs,0.6549677848815918,62,62,True,True,132
+football.graph.dimacs,47.60683465003967,1,1,True,True,None
+celegans_metabolic.graph.dimacs,300.0,None,None,False,False,None
+jazz.graph.dimacs,11.994778156280518,158,158,True,True,1662
+netscience.graph.dimacs,300.0,None,None,False,False,None
+email.graph.dimacs,300.0,None,None,False,False,None
+add20.graph.dimacs,300.0,None,None,False,False,None
+power.graph.dimacs,300.0,None,None,False,False,None
+uk.graph.dimacs,300.0,None,None,False,False,None
+add32.graph.dimacs,300.0,None,None,False,False,None
+3elt.graph.dimacs,300.0,None,None,False,False,None
+data.graph.dimacs,300.0,None,None,False,False,None
+polblogs.graph.dimacs,300.0,None,None,False,False,None

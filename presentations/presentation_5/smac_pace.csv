@@ -1,0 +1,20 @@
+Filename,Time,Found VC,VC,Finished?,Correct?,Recursive Steps,Vertices,
+vc-exact_183.hgr,0.010401010513305664,20,20,True,True,1,None
+vc-exact_045.hgr,0.010122060775756836,64,64,True,True,1,None
+vc-exact_037.hgr,0.011980056762695312,82,82,True,True,1,None
+vc-exact_039.hgr,0.01198887825012207,91,91,True,True,1,None
+vc-exact_181.hgr,0.010221004486083984,36,36,True,True,1,None
+vc-exact_041.hgr,0.014390945434570312,100,100,True,True,1,None
+vc-exact_043.hgr,0.015400886535644531,109,109,True,True,1,None
+vc-exact_003.hgr,0.01513981819152832,120,120,True,True,1,None
+vc-exact_005.hgr,0.015507936477661133,126,126,True,True,1,None
+vc-exact_015.hgr,0.01618361473083496,98,98,True,True,1,None
+vc-exact_001.hgr,0.017260074615478516,132,132,True,True,1,None
+vc-exact_029.hgr,2.7518091201782227,100,100,True,True,2881,None
+vc-exact_031.hgr,2.6701979637145996,100,100,True,True,2881,None
+vc-exact_059.hgr,56.053545236587524,111,111,True,True,36606,None
+vc-exact_053.hgr,88.73967909812927,111,111,True,True,55044,None
+vc-exact_011.hgr,0.01631617546081543,98,98,True,True,1,None
+vc-exact_023.hgr,29.008349895477295,105,105,True,True,24148,None
+vc-exact_021.hgr,0.01671290397644043,99,99,True,True,1,None
+vc-exact_033.hgr,61.05528807640076,112,112,True,True,44055,None

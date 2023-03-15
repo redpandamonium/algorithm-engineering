@@ -1,0 +1,20 @@
+\frametitle{Data Reduction Groups}
+		
+		\begin{itemize}
+			\item Always exhaustive is inefficient
+			\item Once: Apply reductions non-exhaustively
+			\item Exhaustive \\
+			$\rightarrow$ Frequency: Every k recursion layers
+		\end{itemize}
+	
+		\vspace{4mm}
+	
+		\begin{lstlisting}[language=json,firstnumber=1]
+{
+  "name": "once", "priority": 6, "frequency": 1,
+  "data-reductions": [
+    { "name": "degree > k", "priority": 5 }
+  ]
+}
+		\end{lstlisting}
+		

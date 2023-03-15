@@ -1,0 +1,20 @@
+Filename,Time,Found VC,VC,Finished?,Correct?,Recursive Steps,Vertices,
+karate.graph.dimacs,0.010846853256225586,14,14,True,True,1,None
+dolphins.graph.dimacs,0.012033700942993164,34,34,True,True,1,None
+chesapeake.graph.dimacs,0.016601085662841797,22,22,True,True,1,None
+adjnoun.graph.dimacs,0.024110794067382812,59,59,True,True,1,None
+polbooks.graph.dimacs,0.01715087890625,62,62,True,True,1,None
+football.graph.dimacs,2.446315050125122,95,94,True,False,1909,None
+celegans_metabolic.graph.dimacs,0.06497693061828613,249,249,True,True,1,None
+jazz.graph.dimacs,0.05948781967163086,158,158,True,True,1,None
+netscience.graph.dimacs,0.18205523490905762,899,899,True,True,1,None
+email.graph.dimacs,0.19711995124816895,594,594,True,True,1,None
+add20.graph.dimacs,0.4336569309234619,1265,1265,True,True,1,None
+power.graph.dimacs,1.2993569374084473,2203,2203,True,True,1,None
+add32.graph.dimacs,1.4133689403533936,2674,2674,True,True,1,None
+polblogs.graph.dimacs,0.4161100387573242,560,560,True,True,1,None
+PGPgiantcompo.graph.dimacs,5.5318169593811035,4342,4342,True,True,1,None
+crack.graph.dimacs,5.754459857940674,5637,5637,True,True,1,None
+as-22july06.graph.dimacs,34.594521284103394,3303,3303,True,True,19596,None
+cond-mat.graph.dimacs,12.458185195922852,9436,9436,True,True,1,None
+memplus.graph.dimacs,14.509972095489502,10072,10072,True,True,1,None

@@ -1,0 +1,29 @@
+{
+    "data-reductions": {
+        "name": "exhaustive", "priority": 0, "data-reductions": [
+
+        ]
+    },
+
+    "log": {
+        "recursive-steps": true,
+        "solution-size": true
+    },
+
+    "lower-bound": {
+        "cycle-cover": false,
+        "triangle-cover": false,
+        "clique-cover": false,
+        "lp-bound": false
+    },
+
+    "kernel-edge-condition": false,
+
+    "max-mirror-degree": 100000,
+
+    "solver": "branch-and-bound",
+
+    "bounds": [
+
+    ]
+}

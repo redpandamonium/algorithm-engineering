@@ -1,0 +1,15 @@
+Filename,Execution Time,Found VC,Solution VC
+karate.graph.dimacs,0.042240858078003,14,14
+dolphins.graph.dimacs,0.06830906867981,34,34
+chesapeake.graph.dimacs,0.045528173446655,22,22
+adjnoun.graph.dimacs,0.080716133117676,59,59
+polbooks.graph.dimacs,0.053272008895874,62,62
+football.graph.dimacs,0.072658061981201,94,94
+celegans_metabolic.graph.dimacs,0.10859203338623,249,249
+jazz.graph.dimacs,0.082871913909912,158,158
+netscience.graph.dimacs,0.106640100479126,899,899
+email.graph.dimacs,300,None,594
+add20.graph.dimacs,0.215781927108765,1265,1265
+power.graph.dimacs,54.0006940364838,2203,2203
+uk.graph.dimacs,300,None,2626
+add32.graph.dimacs,0.386428833007812,2674,2674

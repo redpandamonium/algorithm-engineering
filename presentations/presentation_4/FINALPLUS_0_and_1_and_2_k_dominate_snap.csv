@@ -1,0 +1,7 @@
+Filename,Execution Time,Found VC,Solution VC,Finished?,Correct?,Recursive Steps,Vertices,
+as20000102.txt.dimacs,13.715257167816162,1052,1052,True,True,1053,None
+email-Eu-core.txt.dimacs,12.443709135055542,579,579,True,True,598,None
+ca-GrQc.txt.dimacs,23.34041666984558,2783,2783,True,True,2784,None
+p2p-Gnutella08.txt.dimacs,135.24055361747742,2054,2054,True,True,2055,None
+ca-HepTh.txt.dimacs,102.32829785346985,4981,4981,True,True,4982,None
+p2p-Gnutella09.txt.dimacs,143.56714797019958,2574,2574,True,True,2575,None

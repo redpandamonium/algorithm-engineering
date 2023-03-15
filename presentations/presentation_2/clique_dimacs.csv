@@ -1,0 +1,7 @@
+file,time,k,solution size,finished,correct,steps,n
+karate.graph.dimacs,0.058623313903808594,14,14,True,True,28,34
+dolphins.graph.dimacs,0.21645045280456543,34,34,True,True,92,62
+chesapeake.graph.dimacs,0.08631539344787598,22,22,True,True,53,39
+adjnoun.graph.dimacs,3.193390369415283,59,59,True,True,848,112
+polbooks.graph.dimacs,0.6549677848815918,62,62,True,True,132,105
+jazz.graph.dimacs,11.994778156280518,158,158,True,True,1662,198

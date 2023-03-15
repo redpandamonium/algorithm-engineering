@@ -1,0 +1,27 @@
+Filename,Execution Time,Found VC,Solution VC,Finished?,Correct?,Recursive Steps,Vertices,
+as20000102.txt.dimacs,0.4407343864440918,1052,1052,True,True,None,None
+email-Eu-core.txt.dimacs,0.6357467174530029,579,579,True,True,None,None
+ca-GrQc.txt.dimacs,0.6174426078796387,2783,2783,True,True,None,None
+p2p-Gnutella08.txt.dimacs,0.573026180267334,2054,2054,True,True,None,None
+ca-HepTh.txt.dimacs,1.0373308658599854,4981,4981,True,True,None,None
+p2p-Gnutella09.txt.dimacs,0.7470214366912842,2574,2574,True,True,None,None
+p2p-Gnutella06.txt.dimacs,0.8744595050811768,3405,3405,True,True,None,None
+p2p-Gnutella05.txt.dimacs,0.8824005126953125,3428,3428,True,True,None,None
+p2p-Gnutella04.txt.dimacs,1.0978634357452393,4348,4348,True,True,None,None
+p2p-Gnutella25.txt.dimacs,1.7310254573822021,6017,6017,True,True,None,None
+ca-CondMat.txt.dimacs,3.328049421310425,13521,13521,True,True,None,None
+ca-HepPh.txt.dimacs,3.1179394721984863,7012,7012,True,True,None,None
+email-Enron.txt.dimacs,6.035664081573486,14437,14437,True,True,None,None
+ca-AstroPh.txt.dimacs,5.602430105209351,12012,12012,True,True,None,None
+soc-sign-Slashdot081106.txt.dimacs,25.757143259048462,19614,19614,True,True,None,None
+soc-sign-Slashdot090216.txt.dimacs,28.679168224334717,21305,21305,True,True,None,None
+soc-sign-Slashdot090221.txt.dimacs,28.914119243621826,21314,21314,True,True,None,None
+soc-Epinions1.txt.dimacs,11.360548734664917,22280,22280,True,True,None,None
+soc-Slashdot0811.txt.dimacs,12.605339288711548,24046,24046,True,True,None,None
+soc-sign-epinions.txt.dimacs,49.2012825012207,28184,28184,True,True,None,None
+soc-Slashdot0902.txt.dimacs,14.021577835083008,25770,25770,True,True,None,None
+loc-gowalla_edges.txt.dimacs,38.90301036834717,84225,84225,True,True,None,None
+amazon0302.txt.dimacs,194.48622870445251,168545,168545,True,True,None,None
+com-amazon.ungraph.txt.dimacs,79.15009307861328,160236,160236,True,True,None,None
+com-dblp.ungraph.txt.dimacs,44.7240092754364,164949,164949,True,True,None,None
+web-NotreDame.txt.dimacs,208.74397253990173,73880,73880,True,True,None,None

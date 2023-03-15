@@ -1,0 +1,8 @@
+file,time,k,steps,finished,correct,n
+dimac/karate.graph.dimac,0.01,14,28,1,correct,34
+dimac/dolphin.graph.dimac,0.10,34,92,1,correct,62
+dimac/cheapeake.graph.dimac,0.03,22,51,1,correct,39
+dimac/adjnoun.graph.dimac,0.97,59,272,1,correct,112
+dimac/polbook.graph.dimac,0.32,62,132,1,correct,105
+dimac/football.graph.dimac,15.72,94,16175,1,correct,115
+dimac/jazz.graph.dimac,7.34,158,1662,1,correct,198

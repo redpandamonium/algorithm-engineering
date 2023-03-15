@@ -1,0 +1,39 @@
+{
+    "data-reductions": {
+        "name": "exhaustive", "priority": 0, "data-reductions": [
+            { "name": "exhaustive", "priority": 2, "data-reductions": [
+                { "name": "exhaustive", "priority": 2, "data-reductions": [
+                    {"name": "degree-0", "priority": 4},
+                    {"name": "degree-1", "priority": 3},
+                    {"name": "degree > k", "priority": 0},
+                    {"name": "triangle", "priority": 1},
+                    {"name": "2-fold", "priority": 2}
+                ]}
+            ]},
+            { "name": "exhaustive", "priority": 1, "data-reductions": [
+                {"name": "unconfined", "priority":0},
+                {"name": "dominate",     "priority": 1}
+            ]}
+        ]
+    },
+
+    "log": {
+        "recursive-steps": true,
+        "solution-size": true
+    },
+
+    "kernel-edge-condition": true,
+
+    "solver": "branch-and-bound",
+
+    "bounds": [
+        {
+            "name": "clique-cover",
+            "priority": 1
+        },
+        {
+            "name": "konig-lp",
+            "priority": 0
+        }
+    ]
+}

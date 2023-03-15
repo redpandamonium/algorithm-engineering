@@ -1,0 +1,256 @@
+Filename                                  		      ExecTime        FoundVC        RealSize     	    Status    	 Correctness  	Recursive Steps
+
+	ENTERING FOLDER: random
+
+
+000002_000000000002.input:              		       0.0		0           	0           	   finished    	    correct    	
+000004_000000000004.input:              		       0.0		0           	0           	   finished    	    correct    	
+000006_000000000007.input:              		       0.0		1           	1           	   finished    	    correct    	
+000008_000000000009.input:              		       0.0		1           	1           	   finished    	    correct    	
+000010_000000000012.input:              		       0.0		2           	2           	   finished    	    correct    	
+000012_000000000014.input:              		       0.0		1           	1           	   finished    	    correct    	
+000014_000000000016.input:              		       0.0		2           	2           	   finished    	    correct    	
+000002_000000000006.input:              		       0.0		1           	1           	   finished    	    correct    	
+000016_000000000019.input:              		       0.0		1           	1           	   finished    	    correct    	
+000018_000000000021.input:              		       0.0		2           	2           	   finished    	    correct    	
+000024_000000000028.input:              		       0.0		4           	4           	   finished    	    correct    	
+000020_000000000024.input:              		       0.0		2           	2           	   finished    	    correct    	
+000022_000000000026.input:              		       0.0		3           	3           	   finished    	    correct    	
+000004_000000000012.input:              		       0.0		4           	4           	   finished    	    correct    	
+000026_000000000031.input:              		       0.0		5           	5           	   finished    	    correct    	
+000035_000000000042.input:              		       0.0		6           	6           	   finished    	    correct    	
+000002_000000000012.input:              		       0.0		2           	2           	   finished    	    correct    	
+000028_000000000033.input:              		       0.0		4           	4           	   finished    	    correct    	
+000030_000000000036.input:              		       0.0		5           	5           	   finished    	    correct    	
+000045_000000000054.input:              		       0.0		6           	6           	   finished    	    correct    	
+000006_000000000018.input:              		       0.0		4           	4           	   finished    	    correct    	
+000050_000000000060.input:              		       0.0		9           	9           	   finished    	    correct    	
+000060_000000000072.input:              		       0.0		10          	10          	   finished    	    correct    	
+000008_000000000024.input:              		       0.0		5           	5           	   finished    	    correct    	
+000055_000000000066.input:              		       0.0		8           	8           	   finished    	    correct    	
+000002_000000000020.input:              		       0.0		2           	2           	   finished    	    correct    	
+000004_000000000024.input:              		       0.0		4           	4           	   finished    	    correct    	
+000010_000000000030.input:              		       0.0		8           	8           	   finished    	    correct    	
+000040_000000000048.input:              		       0.0		7           	7           	   finished    	    correct    	
+000065_000000000078.input:              		       0.0		11          	11          	   finished    	    correct    	
+000070_000000000084.input:              		       0.0		12          	12          	   finished    	    correct    	
+000012_000000000036.input:              		       0.0		10          	10          	   finished    	    correct    	
+000080_000000000096.input:              		       0.0		14          	13          	   finished    	 >>INCORRECT<< 	
+000006_000000000036.input:              		       0.0		4           	4           	   finished    	    correct    	
+000014_000000000042.input:              		       0.0		8           	8           	   finished    	    correct    	
+000016_000000000048.input:              		       0.0		11          	11          	   finished    	    correct    	
+000004_000000000040.input:              		       0.0		4           	4           	   finished    	    correct    	
+000075_000000000090.input:              		       0.0		13          	13          	   finished    	    correct    	
+000008_000000000048.input:              		       0.0		7           	7           	   finished    	    correct    	
+000018_000000000054.input:              		       0.0		11          	11          	   finished    	    correct    	
+000085_000000000102.input:              		       0.0		17          	16          	   finished    	 >>INCORRECT<< 	
+000020_000000000060.input:              		       0.0		15          	15          	   finished    	    correct    	
+000090_000000000108.input:              		       0.0		19          	17          	   finished    	 >>INCORRECT<< 	
+000022_000000000066.input:              		       0.0		15          	15          	   finished    	    correct    	
+000010_000000000060.input:              		       0.0		10          	10          	   finished    	    correct    	
+000006_000000000060.input:              		       0.0		5           	5           	   finished    	    correct    	
+000024_000000000072.input:              		       0.0		13          	12          	   finished    	 >>INCORRECT<< 	
+000026_000000000078.input:              		       0.0		20          	20          	   finished    	    correct    	
+000012_000000000072.input:              		       0.0		11          	11          	   finished    	    correct    	
+000095_000000000114.input:              		       0.0		19          	18          	   finished    	 >>INCORRECT<< 	
+000028_000000000084.input:              		       0.0		20          	20          	   finished    	    correct    	
+000100_000000000120.input:              		       0.0		20          	20          	   finished    	    correct    	
+000008_000000000080.input:              		       0.0		7           	7           	   finished    	    correct    	
+000030_000000000090.input:              		       0.0		21          	21          	   finished    	    correct    	
+000014_000000000084.input:              		       0.0		13          	13          	   finished    	    correct    	
+000016_000000000096.input:              		       0.0		15          	15          	   finished    	    correct    	
+000035_000000000105.input:              		       0.0		27          	26          	   finished    	 >>INCORRECT<< 	
+000010_000000000100.input:              		       0.0		10          	10          	   finished    	    correct    	
+000018_000000000108.input:              		       0.0		15          	15          	   finished    	    correct    	
+000012_000000000120.input:              		       0.0		11          	11          	   finished    	    correct    	
+000020_000000000120.input:              		       0.0		18          	18          	   finished    	    correct    	
+000040_000000000120.input:              		       0.0		31          	30          	   finished    	 >>INCORRECT<< 	
+000022_000000000132.input:              		       0.0		19          	19          	   finished    	    correct    	
+000014_000000000140.input:              		       0.0		13          	13          	   finished    	    correct    	
+000024_000000000144.input:              		       0.0		22          	22          	   finished    	    correct    	
+000045_000000000135.input:              		       0.0		33          	32          	   finished    	 >>INCORRECT<< 	
+000026_000000000156.input:              		       0.0		23          	23          	   finished    	    correct    	
+000016_000000000160.input:              		       0.0		15          	15          	   finished    	    correct    	
+000050_000000000150.input:              		       0.0		44          	42          	   finished    	 >>INCORRECT<< 	
+000028_000000000168.input:              		       0.0		27          	26          	   finished    	 >>INCORRECT<< 	
+000018_000000000180.input:              		       0.0		17          	17          	   finished    	    correct    	
+000055_000000000165.input:              		       0.0		41          	39          	   finished    	 >>INCORRECT<< 	
+000030_000000000180.input:              		       0.0		27          	27          	   finished    	    correct    	
+000060_000000000180.input:              		       0.0		47          	43          	   finished    	 >>INCORRECT<< 	
+000020_000000000200.input:              		       0.0		18          	18          	   finished    	    correct    	
+000200_000000000240.input:              		       0.0		40          	38          	   finished    	 >>INCORRECT<< 	
+000035_000000000210.input:              		       0.0		26          	26          	   finished    	    correct    	
+000022_000000000220.input:              		       0.0		20          	20          	   finished    	    correct    	
+000065_000000000195.input:              		       0.0		52          	49          	   finished    	 >>INCORRECT<< 	
+000024_000000000240.input:              		       0.0		22          	22          	   finished    	    correct    	
+000026_000000000260.input:              		       0.0		25          	25          	   finished    	    correct    	
+000040_000000000240.input:              		       0.0		36          	35          	   finished    	 >>INCORRECT<< 	
+000028_000000000280.input:              		       0.0		22          	22          	   finished    	    correct    	
+000070_000000000210.input:              		       0.0		62          	56          	   finished    	 >>INCORRECT<< 	
+000045_000000000270.input:              		       0.0		42          	39          	   finished    	 >>INCORRECT<< 	
+000030_000000000300.input:              		       0.0		25          	25          	   finished    	    correct    	
+000075_000000000225.input:              		       0.0		68          	58          	   finished    	 >>INCORRECT<< 	
+000080_000000000240.input:              		       0.0		76          	62          	   finished    	 >>INCORRECT<< 	
+000050_000000000300.input:              		       0.0		49          	46          	   finished    	 >>INCORRECT<< 	
+000035_000000000350.input:              		       0.0		34          	34          	   finished    	    correct    	
+000085_000000000255.input:              		       0.0		79          	66          	   finished    	 >>INCORRECT<< 	
+000055_000000000330.input:              		       0.0		55          	48          	   finished    	 >>INCORRECT<< 	
+000090_000000000270.input:              		       0.0		80          	70          	   finished    	 >>INCORRECT<< 	
+000040_000000000400.input:              		       0.0		36          	36          	   finished    	    correct    	
+000060_000000000360.input:              		       0.0		51          	50          	   finished    	 >>INCORRECT<< 	
+000300_000000000360.input:              		       0.0		61          	58          	   finished    	 >>INCORRECT<< 	
+000095_000000000285.input:              		       0.0		90          	78          	   finished    	 >>INCORRECT<< 	
+000100_000000000300.input:              		       0.0		97          	86          	   finished    	 >>INCORRECT<< 	
+000045_000000000450.input:              		       0.0		41          	40          	   finished    	 >>INCORRECT<< 	
+000070_000000000420.input:              		       0.0		66          	60          	   finished    	 >>INCORRECT<< 	
+000065_000000000390.input:              		       0.0		69          	59          	   finished    	 >>INCORRECT<< 	
+000050_000000000500.input:              		       0.0		47          	47          	   finished    	    correct    	
+000400_000000000480.input:              		       0.0		88          	78          	   finished    	 >>INCORRECT<< 	
+000055_000000000550.input:              		       0.0		49          	49          	   finished    	    correct    	
+000075_000000000450.input:              		       0.0		76          	68          	   finished    	 >>INCORRECT<< 	
+000080_000000000480.input:              		       0.0		78          	73          	   finished    	 >>INCORRECT<< 	
+000060_000000000600.input:              		       0.0		53          	53          	   finished    	    correct    	
+000090_000000000540.input:              		       0.0		88          	78          	   finished    	 >>INCORRECT<< 	
+000085_000000000510.input:              		       0.0		90          	76          	   finished    	 >>INCORRECT<< 	
+000065_000000000650.input:              		       0.0		66          	63          	   finished    	 >>INCORRECT<< 	
+000095_000000000570.input:              		       0.0		96          	86          	   finished    	 >>INCORRECT<< 	
+000070_000000000700.input:              		       0.0		73          	67          	   finished    	 >>INCORRECT<< 	
+000100_000000000600.input:              		       0.0		120         	95          	   finished    	 >>INCORRECT<< 	
+000075_000000000750.input:              		       0.0		74          	70          	   finished    	 >>INCORRECT<< 	
+000080_000000000800.input:              		       0.0		79          	77          	   finished    	 >>INCORRECT<< 	
+000500_000000000600.input:              		       0.0		121         	100         	   finished    	 >>INCORRECT<< 	
+000085_000000000850.input:              		       0.0		85          	82          	   finished    	 >>INCORRECT<< 	
+000090_000000000900.input:              		       0.0		95          	85          	   finished    	 >>INCORRECT<< 	
+000095_000000000950.input:              		       0.0		95          	87          	   finished    	 >>INCORRECT<< 	
+000200_000000000600.input:              		       0.0		228         	178         	   finished    	 >>INCORRECT<< 	
+000600_000000000720.input:              		       0.0		142         	119         	   finished    	 >>INCORRECT<< 	
+000100_000000001000.input:              		       0.0		115         	96          	   finished    	 >>INCORRECT<< 	
+000700_000000000840.input:              		       0.0		181         	140         	   finished    	 >>INCORRECT<< 	
+000800_000000000960.input:              		       0.0		212         	160         	   finished    	 >>INCORRECT<< 	
+000900_000000001080.input:              		       0.0		262         	180         	   finished    	 >>INCORRECT<< 	
+000300_000000000900.input:              		       0.0		420         	283         	   finished    	 >>INCORRECT<< 	
+000200_000000001200.input:              		       0.0		274         	194         	   finished    	 >>INCORRECT<< 	
+001000_000000001200.input:              		       0.0		274         	199         	   finished    	 >>INCORRECT<< 	
+000400_000000001200.input:              		       0.1		597         	382         	   finished    	 >>INCORRECT<< 	
+000200_000000002000.input:              		       0.1		247         	197         	   finished    	 >>INCORRECT<< 	
+000300_000000001800.input:              		       0.1		491         	296         	   finished    	 >>INCORRECT<< 	
+000500_000000001500.input:              		       0.1		754         	478         	   finished    	 >>INCORRECT<< 	
+000600_000000001800.input:              		       0.1		947         	582         	   finished    	 >>INCORRECT<< 	
+000300_000000003000.input:              		       0.2		394         	296         	   finished    	 >>INCORRECT<< 	
+000400_000000002400.input:              		       0.2		632         	392         	   finished    	 >>INCORRECT<< 	
+000700_000000002100.input:              		       0.2		1125        	681         	   finished    	 >>INCORRECT<< 	
+000800_000000002400.input:              		       0.3		1323        	784         	   finished    	 >>INCORRECT<< 	
+000500_000000003000.input:              		       0.3		856         	498         	   finished    	 >>INCORRECT<< 	
+000400_000000004000.input:              		       0.3		553         	396         	   finished    	 >>INCORRECT<< 	
+000900_000000002700.input:              		       0.3		1506        	872         	   finished    	 >>INCORRECT<< 	
+000600_000000003600.input:              		       0.4		1068        	593         	   finished    	 >>INCORRECT<< 	
+001000_000000003000.input:              		       0.4		1755        	982         	   finished    	 >>INCORRECT<< 	
+000500_000000005000.input:              		       0.5		754         	498         	   finished    	 >>INCORRECT<< 	
+000700_000000004200.input:              		       0.5		1265        	692         	   finished    	 >>INCORRECT<< 	
+000800_000000004800.input:              		       0.7		1512        	795         	   finished    	 >>INCORRECT<< 	
+000600_000000006000.input:              		       0.8		969         	595         	   finished    	 >>INCORRECT<< 	
+000900_000000005400.input:              		       0.9		1740        	892         	   finished    	 >>INCORRECT<< 	
+000700_000000007000.input:              		       1.1		1236        	696         	   finished    	 >>INCORRECT<< 	
+001000_000000006000.input:              		       1.2		1993        	989         	   finished    	 >>INCORRECT<< 	
+000800_000000008000.input:              		       1.4		1384        	796         	   finished    	 >>INCORRECT<< 	
+000900_000000009000.input:              		       1.9		1688        	895         	   finished    	 >>INCORRECT<< 	
+001000_000000010000.input:              		       2.5		1949        	997         	   finished    	 >>INCORRECT<< 	
+
+	ENTERING FOLDER: snap
+
+
+as20000102.txt.dimacs:                  		       0.2		1127        	1052        	   finished    	 >>INCORRECT<< 	
+email-Eu-core.txt.dimacs:               		       0.1		616         	579         	   finished    	 >>INCORRECT<< 	
+ca-GrQc.txt.dimacs:                     		       0.2		2882        	2783        	   finished    	 >>INCORRECT<< 	
+p2p-Gnutella08.txt.dimacs:              		       0.2		2285        	2054        	   finished    	 >>INCORRECT<< 	
+ca-HepTh.txt.dimacs:                    		       0.4		5240        	4981        	   finished    	 >>INCORRECT<< 	
+p2p-Gnutella09.txt.dimacs:              		       0.3		2840        	2574        	   finished    	 >>INCORRECT<< 	
+p2p-Gnutella06.txt.dimacs:              		       0.4		3697        	3405        	   finished    	 >>INCORRECT<< 	
+p2p-Gnutella05.txt.dimacs:              		       0.4		3767        	3428        	   finished    	 >>INCORRECT<< 	
+p2p-Gnutella04.txt.dimacs:              		       0.5		4689        	4348        	   finished    	 >>INCORRECT<< 	
+p2p-Gnutella25.txt.dimacs:              		       0.8		6203        	6017        	   finished    	 >>INCORRECT<< 	
+facebook_combined.txt.dimacs:           		       0.9		3185        	2993        	   finished    	 >>INCORRECT<< 	
+ca-CondMat.txt.dimacs:                  		       1.2		13935       	13521       	   finished    	 >>INCORRECT<< 	
+ca-HepPh.txt.dimacs:                    		       1.4		7253        	7012        	   finished    	 >>INCORRECT<< 	
+email-Enron.txt.dimacs:                 		       2.7		14964       	14437       	   finished    	 >>INCORRECT<< 	
+ca-AstroPh.txt.dimacs:                  		       2.0		12346       	12012       	   finished    	 >>INCORRECT<< 	
+soc-sign-Slashdot081106.txt.dimacs:     		      44.0		21473       	19614       	   finished    	 >>INCORRECT<< 	
+soc-sign-Slashdot090216.txt.dimacs:     		      49.7		23363       	21305       	   finished    	 >>INCORRECT<< 	
+soc-sign-Slashdot090221.txt.dimacs:     		      50.1		23356       	21314       	   finished    	 >>INCORRECT<< 	
+soc-Epinions1.txt.dimacs:               		       6.8		23660       	22280       	   finished    	 >>INCORRECT<< 	
+soc-Slashdot0811.txt.dimacs:            		       7.3		26059       	24046       	   finished    	 >>INCORRECT<< 	
+soc-sign-epinions.txt.dimacs:           		      87.3		30335       	28184       	   finished    	 >>INCORRECT<< 	
+soc-Slashdot0902.txt.dimacs:            		       7.8		28038       	25770       	   finished    	 >>INCORRECT<< 	
+loc-gowalla_edges.txt.dimacs:           		      19.9		91224       	84222       	   finished    	 >>INCORRECT<< 	
+amazon0302.txt.dimacs:                  		      15.1		184157      	168537      	   finished    	 >>INCORRECT<< 	
+com-amazon.ungraph.txt.dimacs:          		      17.5		171557      	160231      	   finished    	 >>INCORRECT<< 	
+com-dblp.ungraph.txt.dimacs:            		      17.0		170551      	164949      	   finished    	 >>INCORRECT<< 	
+web-NotreDame.txt.dimacs:               		      24.5		81948       	73878       	   finished    	 >>INCORRECT<< 	
+twitter_combined.txt.dimacs:            		      18.8		47803       	44463       	   finished    	 >>INCORRECT<< 	
+roadNet-PA.txt.dimacs:                  		      40.6		651654      	554464      	   finished    	 >>INCORRECT<< 	
+web-Stanford.txt.dimacs:                		     109.6		133672      	118514      	   finished    	 >>INCORRECT<< 	
+roadNet-TX.txt.dimacs:                  		      51.7		824600      	701625      	   finished    	 >>INCORRECT<< 	
+
+	ENTERING FOLDER: dimacs
+
+
+karate.graph.dimacs:                    		       0.0		14          	14          	   finished    	    correct    	
+dolphins.graph.dimacs:                  		       0.0		35          	34          	   finished    	 >>INCORRECT<< 	
+chesapeake.graph.dimacs:                		       0.0		24          	22          	   finished    	 >>INCORRECT<< 	
+adjnoun.graph.dimacs:                   		       0.0		66          	59          	   finished    	 >>INCORRECT<< 	
+polbooks.graph.dimacs:                  		       0.0		66          	62          	   finished    	 >>INCORRECT<< 	
+football.graph.dimacs:                  		       0.0		98          	94          	   finished    	 >>INCORRECT<< 	
+celegans_metabolic.graph.dimacs:        		       0.0		267         	249         	   finished    	 >>INCORRECT<< 	
+jazz.graph.dimacs:                      		       0.0		164         	158         	   finished    	 >>INCORRECT<< 	
+netscience.graph.dimacs:                		       0.0		908         	899         	   finished    	 >>INCORRECT<< 	
+email.graph.dimacs:                     		       0.1		656         	594         	   finished    	 >>INCORRECT<< 	
+add20.graph.dimacs:                     		       0.1		1414        	1265        	   finished    	 >>INCORRECT<< 	
+power.graph.dimacs:                     		       0.1		2386        	2203        	   finished    	 >>INCORRECT<< 	
+uk.graph.dimacs:                        		       0.1		3215        	2626        	   finished    	 >>INCORRECT<< 	
+add32.graph.dimacs:                     		       0.2		2893        	2674        	   finished    	 >>INCORRECT<< 	
+3elt.graph.dimacs:                      		       0.2		3897        	None        	   finished    	
+data.graph.dimacs:                      		       0.2		2556        	2161        	   finished    	 >>INCORRECT<< 	
+polblogs.graph.dimacs:                  		       0.1		611         	560         	   finished    	 >>INCORRECT<< 	
+PGPgiantcompo.graph.dimacs:             		       0.4		4559        	4342        	   finished    	 >>INCORRECT<< 	
+whitaker3.graph.dimacs:                 		       0.4		8333        	None        	   finished    	
+crack.graph.dimacs:                     		       0.4		5913        	5637        	   finished    	 >>INCORRECT<< 	
+fe_4elt2.graph.dimacs:                  		       0.4		9074        	None        	   finished    	
+as-22july06.graph.dimacs:               		       1.0		3531        	3303        	   finished    	 >>INCORRECT<< 	
+cs4.graph.dimacs:                       		       0.8		16465       	None        	   finished    	
+4elt.graph.dimacs:                      		       0.6		12971       	None        	   finished    	
+cond-mat.graph.dimacs:                  		       0.6		9714        	9436        	   finished    	 >>INCORRECT<< 	
+cti.graph.dimacs:                       		       0.7		15102       	None        	   finished    	
+memplus.graph.dimacs:                   		       0.8		10256       	10072       	   finished    	 >>INCORRECT<< 	
+fe_sphere.graph.dimacs:                 		       0.7		14067       	10924       	   finished    	 >>INCORRECT<< 	
+wing_nodal.graph.dimacs:                		       0.7		9672        	None        	   finished    	
+t60k.graph.dimacs:                      		       2.0		40517       	30288       	   finished    	 >>INCORRECT<< 	
+astro-ph.graph.dimacs:                  		       1.3		10503       	10230       	   finished    	 >>INCORRECT<< 	
+wing.graph.dimacs:                      		       2.4		45279       	None        	   finished    	
+fe_pwt.graph.dimacs:                    		       1.9		32213       	27209       	   finished    	 >>INCORRECT<< 	
+vibrobox.graph.dimacs:                  		       1.5		11772       	None        	   finished    	
+fe_body.graph.dimacs:                   		       2.2		34901       	31336       	   finished    	 >>INCORRECT<< 	
+cond-mat-2005.graph.dimacs:             		       2.2		23829       	23106       	   finished    	 >>INCORRECT<< 	
+bcsstk33.graph.dimacs:                  		       2.7		8551        	8226        	   finished    	 >>INCORRECT<< 	
+finan512.graph.dimacs:                  		       3.8		50632       	46592       	   finished    	 >>INCORRECT<< 	
+bcsstk29.graph.dimacs:                  		       2.6		13130       	12642       	   finished    	 >>INCORRECT<< 	
+brack2.graph.dimacs:                    		       4.2		43423       	41214       	   finished    	 >>INCORRECT<< 	
+fe_ocean.graph.dimacs:                  		       6.7		126381      	71724       	   finished    	 >>INCORRECT<< 	
+fe_tooth.graph.dimacs:                  		       5.3		52360       	50343       	   finished    	 >>INCORRECT<< 	
+smallworld.graph.dimacs:                		       6.4		84665       	None        	   finished    	
+G_n_pin_pout.graph.dimacs:              		       6.7		78246       	None        	   finished    	
+bcsstk31.graph.dimacs:                  		       5.5		33406       	32100       	   finished    	 >>INCORRECT<< 	
+caidaRouterLevel.graph.dimacs:          		      10.2		81340       	75095       	   finished    	 >>INCORRECT<< 	
+fe_rotor.graph.dimacs:                  		       7.8		87645       	None        	   finished    	
+598a.graph.dimacs:                      		       8.8		98224       	None        	   finished    	
+coAuthorsCiteseer.graph.dimacs:         		      12.0		132594      	129193      	   finished    	 >>INCORRECT<< 	
+bcsstk32.graph.dimacs:                  		       9.1		43057       	41642       	   finished    	 >>INCORRECT<< 	
+bcsstk30.graph.dimacs:                  		       9.8		27487       	27141       	   finished    	 >>INCORRECT<< 	
+coAuthorsDBLP.graph.dimacs:             		      15.8		160928      	155618      	   finished    	 >>INCORRECT<< 	
+wave.graph.dimacs:                      		      12.2		136070      	None        	   finished    	
+144.graph.dimacs:                       		      12.4		128508      	None        	   finished    	
+citationCiteseer.graph.dimacs:          		      17.8		131112      	118115      	   finished    	 >>INCORRECT<< 	
+m14b.graph.dimacs:                      		      19.4		192633      	None        	   finished    	
+cnr-2000.graph.dimacs:                  		     172.1		104012      	95521       	   finished    	 >>INCORRECT<< 	
+auto.graph.dimacs:                      		      40.8		397769      	None        	   finished    	
+
+Summary of config: Of 241 jobs were 241 finished, 75 solved correctly and 149 solved incorrectly
