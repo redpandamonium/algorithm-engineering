@@ -1,25 +1,26 @@
 # Algorithm Engineering WiSe 18/19
 
-Carsten Gregor Michael Schubert, Fynn Constantin Lohren, Leon Suchy
+This is a solver for the vertex cover problem ([wiki](https://en.wikipedia.org/wiki/Vertex_cover)).
+It is also a test bench to quickly implement new data reductions and solver optimizations from the literature.
+It also includes a benchmarking testbench. 
 
-## Code Keywords (no colons)
-    - NOTE
-    - TODO
-    - REVIEW
+Credit: Carsten Gregor Michael Schubert, Fynn Constantin Lohren, Leon Suchy
 
 ## Build & Run
 
-To build you need CMake 3.10 or higher. Use   
-``cmake --build cmake-build-debug --target <target>``  
-to build a target. You can find the build output in ``cmake-build-debug/<target>/``.
+To build you need CMake 3.10 or higher. Don't forget to recursively init the project's submodules.
+Use `cmake -B cmake-build-<debug/release> -S . -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake` to generate the cmake build files.
+After that you can run the main solver with `cmake --build cmake-build-debug --target VertexCover` and run it from there, or use the `--run` option.
 
-### Example
+## Example
 
-To build & run the vertex cover solver you first build the target and its
-dependencies using ``cmake --build cmake-build-debug --target vertex_cover``.
-You can then run it with ``./cmake-build-debug/vertex_cover``.  
+The solver needs two configuration files to run. The pre-config is the preprocessing config before the actual solver starts.
+The regular config is for the main solver phase. Here are two examples from our test repository:
 
-### Release builds
+* `./cmake-build-debug/vertex_cover/VertexCover --config vertex_cover/res/config_fast.json --pre-config vertex_cover/res/pre_config_fast.json --no-solution-dump --file vertex_cover/test/res/ninja_star.input`
+* `./cmake-build-debug/vertex_cover/VertexCover --config vertex_cover/res/config_fast.json --pre-config vertex_cover/res/pre_config_fast.json --no-solution-dump --file vertex_cover/test/res/adjnoun.graph.input`
+
+## Release builds
 
 To build the release use ``cmake -DCMAKE_BUILD_TYPE=Release [...]`` and replace 
 ``cmake-build-debug`` with ``cmake-build-release``.
