@@ -9,10 +9,12 @@ Credit: Carsten Gregor Michael Schubert, Fynn Constantin Lohren, Leon Suchy
 ## Build & Run
 
 To build you need CMake 3.10 or higher. Don't forget to recursively init the project's submodules.
+There is a vcpkg manifest shipped with the project for dependencies. Sadly this was written before vcpkg split boost into components, so it is a hefty download.
 Use `cmake -B cmake-build-<debug/release> -S . -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake` to generate the cmake build files.
-After that you can run the main solver with `cmake --build cmake-build-debug --target VertexCover` and run it from there, or use the `--run` option.
+After that you can build the main solver with `cmake --build cmake-build-debug --target VertexCover` and run it from there, or use the `--run` option.
+You can run the solver with `--help` to see its other options.
 
-## Example
+## Examples
 
 The solver needs two configuration files to run. The pre-config is the preprocessing config before the actual solver starts.
 The regular config is for the main solver phase. Here are two examples from our test repository:
