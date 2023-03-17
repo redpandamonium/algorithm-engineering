@@ -2,7 +2,7 @@
 
 This is a solver for the vertex cover problem ([wiki](https://en.wikipedia.org/wiki/Vertex_cover)).
 It is also a test bench to quickly implement new data reductions and solver optimizations from the literature.
-It also includes a benchmarking testbench. 
+It also includes a benchmarking testbench. This software is experimental and should not be used in anything serious.
 
 Credit: Carsten Gregor Michael Schubert, Fynn Constantin Lohren, Leon Suchy
 
